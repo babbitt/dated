@@ -1,0 +1,25 @@
+.dtd-actionBar {
+    font-family: 'Yomogi', cursive;
+    pointer-events: none;
+    z-index: 10;
+    display: flex;
+    position: fixed;
+    left: 0;
+    margin: 0;
+    top: 0;
+    padding: 2rem 2rem 0 2rem;
+    width: calc(100% - 4rem);
+    transition: background-color .25s;
+  }
+  
+  .dtd-actionBar h3 {
+    background-color: white;
+    box-shadow: 0px 0px 0 5px white;
+  }
+  
+  
+  .dtd-actionBar .items {
+    pointer-events: all;
+    margin: auto 0 auto auto;
+    display: flex;
+  }
